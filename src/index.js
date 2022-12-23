@@ -5,7 +5,7 @@ const multer = require("multer");
 const cors = require("cors");
 app.use(multer().any());
 
-app.use(express.json());
+app.use(express.json());   
 
 app.use(cors());
 
